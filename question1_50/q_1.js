@@ -1,7 +1,10 @@
 // 再度挑戦
-// const a = { a: 'a' }とconst b = { b: 'b' } をマージしたc を出力してください e.g{ a:'a', b:'b' }
+// const a = { a: 'a' }とconst b = { b: 'b' }をマージする関数を作成してください
 const a = { a: 'a' }
 const b = { b: 'b' } 
-const c = Object.assign({}, a, b);
 
-console.log(c)
+const mergeObject = (a, b) => {
+  return { ...a, ...b }
+}
+
+module.exports = mergeObject;
