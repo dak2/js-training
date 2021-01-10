@@ -2,7 +2,12 @@
 
 const arr = ['aa','bb','cc','dd','ee','ff','gg'];
 
-console.log(arr.filter(v => ['dd', 'ee', 'ff'].includes(v)))
+const specificArray = (arr) => {
+  return arr.filter(
+    v => ['dd', 'ee', 'ff'].includes(v)
+  )
+};
 
 // or console.log(arr.slice(3, -1))
 
+module.exports = specificArray;
