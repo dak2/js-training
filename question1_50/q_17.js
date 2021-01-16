@@ -13,4 +13,4 @@ who.getName();
 
 // *アロー関数はnewを使用できないので通常の関数を利用
 
-module.exports = Who ;
+module.exports = Who;
