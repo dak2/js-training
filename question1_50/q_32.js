@@ -5,12 +5,10 @@
 // getSum(undefined, 10) //throws a is not defined
 
 const getSum = (a, b) => {
-  if(!a && !b) {
-    throw new Error("a and b is not defined")
+  if (!a) {
+    throw new Error("a is not defined")
   } else if (!b) {
     throw new Error("b is not defined")
-  } else if (!a) {
-    throw new Error("a is not defined")
   }
   return a + b
 }
