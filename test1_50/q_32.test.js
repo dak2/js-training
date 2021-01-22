@@ -13,9 +13,5 @@ describe('getSum', () => {
   test('throw error when first argument is undefined', () => {
     expect(() => getSum(undefined, 2)).toThrow("a is not defined")
   })
-
-  test('throw error when arguments is undefined', () => {
-    expect(() => getSum()).toThrow("a and b is not defined")
-  })
 })
 
