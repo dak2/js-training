@@ -10,6 +10,9 @@ for (let i = 0; i < 'foo'.length; i++) {
   results.push('foo'.charAt(i))
 }
 
+// 3
+console.log([...'foo'])
+
 // 別解
 let chars = [];
 for (let n of 'foo'){
