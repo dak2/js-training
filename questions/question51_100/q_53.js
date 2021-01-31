@@ -4,21 +4,21 @@
 const splitString = (str, array) => {
   let index = 0
   let rest = array
-  let t = ''
-  let e = ''
+  let index0 = ''
+  let index1 = ''
 
   for (let n of str){ 
     if(index == 0) {
-      t = n 
+      index0 = n 
     } else if(index == 1){
-      e = n
+      index1 = n
     } else {
       rest.push(n)
     }
     index +=1
   }
-  console.log(t)
-  console.log(e)
+  console.log(index0)
+  console.log(index1)
   console.log(rest)
 }
 
