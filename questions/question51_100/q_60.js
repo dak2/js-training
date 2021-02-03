@@ -11,7 +11,7 @@ const appendString = (nameObj) => {
 }
 
 // 答え
-const nameObj = [{name: 'kenji'},{name: 'morita'}];
+const nameObj = [{name: 'Scott'},{name: 'James'}];
 const results = [];
 nameObj.forEach(function(obj, _i){
   for (let key in obj){
@@ -19,4 +19,4 @@ nameObj.forEach(function(obj, _i){
   }
 });
 results
-//['kenjisan', 'moritasan']
+//['Scottsan', 'Jamessan']
