@@ -3,5 +3,3 @@ const array = ['shibuya','shinjuku','ebisu','shinagawa','tokyo','ueno','ikebukur
 
 // 答え
 const [,a,,,,, b] = array;
-
-

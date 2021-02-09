@@ -20,7 +20,7 @@ function foo(){
   var thing;//巻き上げ
   console.log(thing);
   if(true){
-    thing = 'local';
+    var thing = 'local';
     console.log(thing);
   }
 }
